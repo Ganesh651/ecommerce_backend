@@ -1,0 +1,30 @@
+{
+  "name": "ecommerce_backend",
+  "version": "1.0.0",
+  "description": "It is an e-commerce application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ganesh651/ecommerce_backend.git"
+  },
+  "author": "Ganesh Gajarla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ganesh651/ecommerce_backend/issues"
+  },
+  "homepage": "https://github.com/Ganesh651/ecommerce_backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
